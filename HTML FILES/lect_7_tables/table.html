@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Table">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Product Listing:</h1>
+    <h3>Men's Clothing</h3>
+    <!-- 
+        The <table> HTML element represents tabular data
+        The <tr> HTML element defines a row of cells in a table.
+        The <th> HTML element defines a cell as header of a group of table cells. 
+        The <td> HTML element defines a cell of a table that contains data. It participates in the table model.
+        The callpadding specifies the amount of space between the border of a table cell and its contents
+        The colspan - the number of columns a cell should span. It allows the single table cell to span the width of more than one cell or column  
+        The The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.
+    
+     -->
+        <table border="1" cellpadding="40px">
+            <tr>
+                <th> Product <br> 
+                       ID  </th>
+                <th> Product <br>
+                Name    </th>
+                <th> Description   </th>
+                <th>  Buy <br>
+                Now  </th>
+            </tr>
+            <tr> 
+                <td>SKU10101</td>
+                <td>T-Shirt</td>
+                <td>Made with fine <br>
+                100% cotton.</td>
+                <td> <a href="#">Buy <br> Now</a> </td>
+             </tr>
+            <tr>
+                <td>SKU10202</td> 
+                <td>Pants</td>
+                <td>Slim and <br>
+                    Straight cut <br>
+                Jeans. </td>
+                <td> <a href="#">Buy <br> Now</a> </td>
+            </tr>
+            <tr>
+                <td colspan="4">Product from <a href="http://www.amazon.in" target="_blank"> Amazon.com</a></td>
+            </tr>  
+        </table>
+</body>
+</html>
